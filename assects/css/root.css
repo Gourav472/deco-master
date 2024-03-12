@@ -1,0 +1,162 @@
+:root{
+    /* font-size */
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-24: 24px;
+    --fs-36: 36px;
+    --fs-48: 48px;
+    --fs-64: 64px;
+    --fs-144: 144px;
+    /* font-weight */
+    --fw-7: 700;
+    --fw-6: 600;
+    --fw-5: 500;
+    --fw-4: 400;
+    /* line height */
+    --lh-216: 216px;
+    --lh-96: 96px;
+    --lh-36: 36px;
+    --lh-72: 72px;
+    --lh-30: 30px;
+    --lh-27: 27px;
+    --lh-54: 54px;
+    /* colors */
+    --lightgreen: #D2DA60;
+    --lightpurple: #9003E5;
+    --black: #000000;
+    --white: #FFFFFF;
+    --blue: #010080;
+    --pink:#8A3E74;
+    --grey: #EEEEEE;
+    --grey-2: #F0F0F0;
+    --grey-3: #444444;
+
+
+    
+
+}
+.grey-2{
+    color: var(--grey-2);
+}
+.grey-3{
+    color: var(--grey-3);
+}
+.fs-18{
+    font-size: var(--fs-18);
+}
+.fs-20{
+    font-size: var(--fs-20);
+}
+.fs-24{
+    font-size: var(--fs-24);
+}
+.fs-36{
+    font-size: var(--fs-36);
+}
+.fs-48{
+    font-size: var(--fs-48);
+}
+.fs-64{
+    font-size: var(--fs-64);
+}
+.fs-144{
+    font-size: var(--fs-144);
+}
+.fw-7{
+    font-weight: var(--fw-7);
+}
+.fw-6{
+    font-weight: var(--fw-6);
+}
+.fw-5{
+    font-weight: var(--fw-5);
+}
+.fw-4{
+    font-weight: var(--fw-4);
+}
+.lh-216{
+    line-height: var(--lh-216);
+}
+.lh-96{
+    line-height: var(--lh-96);
+}
+.lh-36{
+    line-height: var(--lh-36);
+}
+.lh-72{
+    line-height: var(--lh-72);
+}
+.lh-30{
+    line-height: var(--lh-30);
+}
+.lh-27{
+    line-height: var(--lh-27);
+}
+.lh-54{
+    line-height: var(--lh-54);
+}
+.lightgreen{
+    color: var(--lightgreen);
+}
+.lightpurple{
+    color: var(--lightpurple);
+}
+.black{
+    color: var(--black);
+}
+.grey{
+    color: var(--grey);
+}
+.white{
+    color: var(--white);
+}
+.pink{
+    color: var(--pink);
+}
+.blue{
+    color: var(--blue);
+}
+.poppins{
+    font-family: 'Poppins',sans-serif;
+}
+@media (max-width:768px) {
+    :root{
+        /* font-size */
+        --fs-18: 18px;
+        --fs-20: 20px;
+        --fs-24: 24px;
+        --fs-36: 36px;
+        --fs-48: 32px;
+        --fs-64: 40px;
+        --fs-144: 40px !important;
+        /* font-weight */
+        --fw-7: 700;
+        --fw-6: 600;
+        --fw-5: 500;
+        --fw-4: 400;
+        /* line height */
+        --lh-216: 100px;
+        --lh-96: 96px;
+        --lh-36: 36px;
+        --lh-72: 40px;
+        --lh-30: 30px;
+        --lh-27: 27px;
+        --lh-54: 54px;
+        /* colors */
+        --lightgreen: #D2DA60;
+        --lightpurple: #9003E5;
+        --black: #000000;
+        --white: #FFFFFF;
+        --blue: #010080;
+        --pink:#8A3E74;
+    
+        
+    
+    }
+}
+@media (max-width:1200px) {
+    :root{
+        --fs-144: 80px;
+    }
+    
+}
