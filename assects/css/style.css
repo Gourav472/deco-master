@@ -165,7 +165,7 @@
 .position-absolute-2 {
   position: absolute;
   bottom: 0%;
-  left: 0%;
+  left: -10%;
 }
 
 .z-index-10 {
@@ -319,7 +319,7 @@
 
 .sec3-elipse1 {
   position: absolute;
-  left: 0%;
+  left: -13%;
   top: 55%;
   z-index: -10;
 }
@@ -790,7 +790,30 @@
   margin-bottom: 168px;
 }
 
-@media (max-width:1200px) {
+@media (min-width:1820px) {
+  .sec3-elipse1 {
+    position: absolute;
+    left: 0%;
+    top: 55%;
+    z-index: -10;
+  }
+
+  .elipse-left {
+    position: absolute;
+    bottom: 27% !important;
+
+    left: 0% !important;
+    z-index: -1;
+  }
+
+  .position-absolute-2 {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+  }
+}
+
+@media (max-width:1199px) {
   .mobile_view {
     position: fixed;
     background: transparent;
@@ -939,8 +962,8 @@
 
   .elipse-left {
 
-    bottom: 34%;
-    left: 2%;
+    bottom: 36%;
+    left: 0%;
     z-index: -1;
   }
 
@@ -1128,12 +1151,12 @@
 
   .elipse-left {
     position: absolute;
-    bottom: 27%;
-
-    right: 0%;
+    bottom: 33%;
+    left: 0%;
     z-index: -1;
   }
-  .text_now{
+
+  .text_now {
     text-wrap: nowrap !important;
   }
 }
