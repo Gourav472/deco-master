@@ -1,4 +1,4 @@
-:root{
+:root {
     /* font-size */
     --fs-18: 18px;
     --fs-20: 20px;
@@ -26,101 +26,130 @@
     --black: #000000;
     --white: #FFFFFF;
     --blue: #010080;
-    --pink:#8A3E74;
+    --pink: #8A3E74;
     --grey: #EEEEEE;
     --grey-2: #F0F0F0;
     --grey-3: #444444;
 
 
-    
+
 
 }
-.grey-2{
+
+.grey-2 {
     color: var(--grey-2);
 }
-.grey-3{
+
+.grey-3 {
     color: var(--grey-3);
 }
-.fs-18{
+
+.fs-18 {
     font-size: var(--fs-18);
 }
-.fs-20{
+
+.fs-20 {
     font-size: var(--fs-20);
 }
-.fs-24{
+
+.fs-24 {
     font-size: var(--fs-24);
 }
-.fs-36{
+
+.fs-36 {
     font-size: var(--fs-36);
 }
-.fs-48{
+
+.fs-48 {
     font-size: var(--fs-48);
 }
-.fs-64{
+
+.fs-64 {
     font-size: var(--fs-64);
 }
-.fs-144{
+
+.fs-144 {
     font-size: var(--fs-144);
 }
-.fw-7{
+
+.fw-7 {
     font-weight: var(--fw-7);
 }
-.fw-6{
+
+.fw-6 {
     font-weight: var(--fw-6);
 }
-.fw-5{
+
+.fw-5 {
     font-weight: var(--fw-5);
 }
-.fw-4{
+
+.fw-4 {
     font-weight: var(--fw-4);
 }
-.lh-216{
+
+.lh-216 {
     line-height: var(--lh-216);
 }
-.lh-96{
+
+.lh-96 {
     line-height: var(--lh-96);
 }
-.lh-36{
+
+.lh-36 {
     line-height: var(--lh-36);
 }
-.lh-72{
+
+.lh-72 {
     line-height: var(--lh-72);
 }
-.lh-30{
+
+.lh-30 {
     line-height: var(--lh-30);
 }
-.lh-27{
+
+.lh-27 {
     line-height: var(--lh-27);
 }
-.lh-54{
+
+.lh-54 {
     line-height: var(--lh-54);
 }
-.lightgreen{
+
+.lightgreen {
     color: var(--lightgreen);
 }
-.lightpurple{
+
+.lightpurple {
     color: var(--lightpurple);
 }
-.black{
+
+.black {
     color: var(--black);
 }
-.grey{
+
+.grey {
     color: var(--grey);
 }
-.white{
+
+.white {
     color: var(--white);
 }
-.pink{
+
+.pink {
     color: var(--pink);
 }
-.blue{
+
+.blue {
     color: var(--blue);
 }
-.poppins{
-    font-family: 'Poppins',sans-serif;
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
 }
+
 @media (max-width:768px) {
-    :root{
+    :root {
         /* font-size */
         --fs-18: 18px;
         --fs-20: 20px;
@@ -148,15 +177,16 @@
         --black: #000000;
         --white: #FFFFFF;
         --blue: #010080;
-        --pink:#8A3E74;
-    
-        
-    
+        --pink: #8A3E74;
+
+
+
     }
 }
+
 @media (max-width:1200px) {
-    :root{
+    :root {
         --fs-144: 80px;
     }
-    
+
 }
