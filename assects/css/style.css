@@ -1133,7 +1133,9 @@
     right: 0%;
     z-index: -1;
   }
-
+  .text_now{
+    text-wrap: nowrap !important;
+  }
 }
 
 @media (min-width:1200px) {
